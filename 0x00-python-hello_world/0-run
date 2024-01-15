@@ -1,3 +1,2 @@
 #!/bin/bash
 [ -z "$PYFILE" ] && { echo "Error: PYFILE environment variable is not set."; exit 1; } || [ ! -f "$PYFILE" ] && { echo "Error: Python file '$PYFILE' not found."; exit 1; }; python "$PYFILE"
-
