@@ -9,3 +9,56 @@ Exceptions
 	IOError
 	ZeroDivisionError
 	ImportError
+	
+	x = 5
+	y = "hello"
+	z = x+y
+	
+	>>> TypeError:...
+	
+	//try catch block
+	
+	x = 5
+	y = "hello"
+	
+	try:
+	z = x+y
+	
+	except TypeError:
+		print("Error: cannont add an int and a str")
+		
+	//with else
+	
+	def AbyB(a, b):
+		try:
+			c = ((a+b)) / (a-b))
+			
+		except ZeroDivisionError:
+			print("a/b result in 0")
+		else:
+			print(C) // if no error
+			
+	// with finally
+	
+	try:
+		k = 5//0
+		print(k)
+	except ZeroDivisionError:
+		print("Can't Divide by zero")
+		
+	finally:
+		print("this is always excecuted")
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
