@@ -1,0 +1,11 @@
+Exceptions
+
+	syntax error
+	Value error
+	Key error
+	Index Error
+	Type error
+	Attribute error
+	IOError
+	ZeroDivisionError
+	ImportError
