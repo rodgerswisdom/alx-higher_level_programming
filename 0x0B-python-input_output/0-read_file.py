@@ -1,15 +1,11 @@
-#!usr/bin/Python3
-"""
-    Defines a python module
-"""
+#!/usr/bin/python3
+"""Defines read file module """
+
 
 def read_file(filename=""):
-"""
+    """
     read_file function
-    reads the UTF-8 format
-"""
-    with open(filename, mode='r', encoding="utf-8") as file:
-	    read_data = file.read()
-	    print(read_data, end='')
-
-    file.closed
+    reads a text file (UTF8) and prints it result to stdout
+    """
+    with open(filename, mode='r', encoding='utf-8') as f:
+        print(f.read(), end='')
